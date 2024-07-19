@@ -392,7 +392,7 @@ class ArynPartitioner(Partitioner):
              running remotely.
         batch_at_a_time: When running locally, run inference on the pages in batches in order to not load
              all pages into memory at the same time. Default is False
-        local: If false, runs the partitioner remotely. Defaults to false
+        use_partitioning_service: If false, runs the partitioner remotely. Defaults to false
         aryn_api_key: The account token used to authenticate with Aryn's servers.
         aryn_partitioner_address: The address of the server to use to partition the document
         use_cache: Cache results from the partitioner for faster inferences on the same documents in future runs.
